@@ -8,44 +8,39 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
-    name: "UI/UX Design",
-    description: " Hii I am first year student and currently pursuing ",
-    link: "Learn more",
+    name: "Spotify Clone",
+    description:
+      "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+    link: "https://spotify-clone-vbirla789.vercel.app/",
   },
   {
-    name: "Development",
-    description: " Hii I am first year student and currently pursuing ",
-    link: "Learn more",
+    name: "Weather API",
+    description:
+      "A Weather API using React can be designed to allow users to access real-time weather data for any location. The is built using React components and a weather API that provides weather data, such as temperature, wind speed, humidity. ",
+    link: "https://spotify-clone-vbirla789.vercel.app/",
   },
   {
-    name: "Digital Marketing",
-    description: " Hii I am first year student and currently pursuing ",
-    link: "Learn more",
-  },
-  {
-    name: "Product Designing",
-    description: " Hii I am first year student and currently pursuing ",
-    link: "Learn more",
+    name: "To Do App",
+    description:
+      " A To-Do app using React can be designed to help users keep track of tasks they need to complete. The app can be built using React components, state management using hooks, and local storage to save tasks.",
+    link: "https://todo-app-xi-ebon.vercel.app/",
   },
 ];
 
 const Services = () => {
   return (
     <section className="section" id="services">
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-0">
         <div className="flex flex-col lg:flex-row">
           <motion.div
             variants={fadeIn("right", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
+            className="flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
-            <h2 className="h2 text-accent mb-6">What I Do</h2>
-            <h3 className="h3 max-w-[455px]mb-16">
-              I'm a Freelance Front-end Developer with over 5 years of
-              experience.
-            </h3>
+            <h2 className="h2 text-[#64ffda] mb-6"> Some Things I’ve Built</h2>
+
             <button className="btn btn-sm">See my work</button>
           </motion.div>
           <motion.div
@@ -64,22 +59,19 @@ const Services = () => {
                     key={index}
                   >
                     <div className="max-w-[476px]">
-                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
+                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-3 text-[#64ffda] ">
                         {name}
                       </h4>
-                      <p className="font-secondary leading-tight">
+                      <p className="font-semibold text-[#8892b0] font">
                         {description}
                       </p>
                     </div>
                     <div className="flex flex-col flex-1 items-end">
                       <a
-                        href="#"
+                        href={link}
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
-                      </a>
-                      <a href="#" className="text-gradient text-sm">
-                        {link}
                       </a>
                     </div>
                   </div>

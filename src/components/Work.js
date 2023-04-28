@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
 
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/img-1.png";
+import Img2 from "../assets/img-2.png";
+import Img3 from "../assets/img-3.png";
 
 const Work = () => {
   return (
@@ -18,19 +18,21 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
+            className="flex-1 flex flex-col gap-y-5 mb-8 lg:mb-0"
           >
             <div>
-              <h2 className="h2 leading-tight text-accent">
+              <h2 className="h2 leading-tight text-[#64ffda]">
                 My Latest <br />
                 Work.
               </h2>
               <p className="max-w-sm mb-16">
-                Hii I am first year student and currently pursuing Hii I am
-                first year student and currently pursuing Hii I am first year
-                student and currently pursuing
+                I have done some React projects. Completed complex react apps
+                like spotify clone. Also made some basic react projects like
+                weather api , crypto tracker and basic calculator.
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <button className="btn btn-sm">
+                <a href="https://github.com/vbirla789">View all projects</a>
+              </button>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -40,10 +42,16 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                {/* <span className="text-gradient">UI/UX Design</span> */}
+                <a
+                  href="https://spotify-clone-vbirla789.vercel.app/"
+                  className="h3 leading-tight text-[#64ffda]"
+                >
+                  Spotify-clone
+                </a>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white"></span>
               </div>
             </div>
           </motion.div>
@@ -61,11 +69,16 @@ const Work = () => {
                 src={Img2}
                 alt=""
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
+                <a
+                  className="h3 leading-tight text-[#64ffda]"
+                  href=" https://crypto-tracker-vbirla789.vercel.app/"
+                >
+                  Crypto Tracker
+                </a>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white"></span>
               </div>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -76,10 +89,15 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <a
+                  className="h3 leading-tight text-[#64ffda]"
+                  href="https://todo-app-xi-ebon.vercel.app/"
+                >
+                  To Do App
+                </a>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white"> </span>
               </div>
             </div>
           </motion.div>
