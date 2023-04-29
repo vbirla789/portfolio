@@ -29,7 +29,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="section" id="services">
+    <section className="section " id="services">
       <div className="container mx-auto mt-0">
         <div className="flex flex-col lg:flex-row">
           <motion.div
@@ -57,15 +57,12 @@ const Services = () => {
               {services.map((service, index) => {
                 const { name, description, link } = service;
                 return (
-                  <div
-                    className="border-b border-white/20 h-[146px] mb-[38px] flex"
-                    key={index}
-                  >
-                    <div className="max-w-[476px]">
-                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-3 text-[#64ffda] ">
+                  <div className=" h-[146px] mb-[38px] flex " key={index}>
+                    <div className="max-w-[476px] ">
+                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-0  text-[#64ffda] ">
                         {name}
                       </h4>
-                      <p className="font-semibold text-[#8892b0] font">
+                      <p className="font-semibold text-[#8892b0] mb-25">
                         {description}
                       </p>
                     </div>
