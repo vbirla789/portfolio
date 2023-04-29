@@ -10,13 +10,13 @@ const services = [
   {
     name: "Spotify Clone",
     description:
-      "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+      "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks. Create and save new playlists of recommended tracks based on your existing playlists.",
     link: "https://spotify-clone-vbirla789.vercel.app/",
   },
   {
     name: "Weather API",
     description:
-      "A Weather API using React can be designed to allow users to access real-time weather data for any location. The is built using React components and a weather API that provides weather data, such as temperature, wind speed, humidity. ",
+      "A Weather API using React can be designed to allow users to access real-time weather data for any location. The is built using React components and a weather API . ",
     link: "https://spotify-clone-vbirla789.vercel.app/",
   },
   {
