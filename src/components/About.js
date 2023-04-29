@@ -13,7 +13,7 @@ const About = () => {
   });
 
   return (
-    <section className="min-h-[75vh] lg:min-h-[78vh] " id="about" ref={ref}>
+    <section className="min-h-[120vh] lg:min-h-[78vh] " id="about" ref={ref}>
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
           <motion.div

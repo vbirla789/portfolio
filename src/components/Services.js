@@ -41,7 +41,10 @@ const Services = () => {
           >
             <h2 className="h2 text-[#64ffda] mb-6"> Some Things I’ve Built</h2>
 
-            <button className="btn btn-sm">See my work</button>
+            <button className="btn btn-sm">
+              {" "}
+              <a href="https://github.com/vbirla789">See my work</a>
+            </button>
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
