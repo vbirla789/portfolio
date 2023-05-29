@@ -90,6 +90,7 @@ const Banner = () => {
               <a
                 href="https://drive.google.com/file/d/1qp3Ta6CfnYKlivl5culT9IMX8YvvqgH1/view?usp=sharing"
                 className="text-[27px] font-semibold leading-[2.0] lg:text-[27px] text-[#64ffda] btn-link"
+                target={"_blank"}
               >
                 My Portfolio
               </a>
@@ -100,13 +101,16 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[30px] gap-x-6 mx-auto  max-w-max lg:mx-0 mb-20 mt-0"
             >
-              <a href="https://www.linkedin.com/in/vishal-birla-587235187/">
+              <a
+                href="https://www.linkedin.com/in/vishal-birla-587235187/"
+                target={"_blank"}
+              >
                 <FaLinkedinIn />
               </a>
-              <a href="https://github.com/vbirla789">
+              <a href="https://github.com/vbirla789" target={"_blank"}>
                 <FaGithub />
               </a>
-              <a href="https://twitter.com/VishalB10042696">
+              <a href="https://twitter.com/VishalB10042696" target={"_blank"}>
                 <FaTwitter />
               </a>
             </motion.div>

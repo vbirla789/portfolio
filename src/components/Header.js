@@ -17,7 +17,15 @@ const Header = () => {
           </a>
         </div>
         <div class="mr-10">
-          <button className="btn btn-sm">Resume</button>
+          <button className="btn btn-sm">
+            <a
+              href="https://drive.google.com/file/d/1qp3Ta6CfnYKlivl5culT9IMX8YvvqgH1/view?usp=sharing"
+              target={"_blank"}
+              role="button"
+            >
+              Resume
+            </a>
+          </button>
         </div>
       </div>
     </header>
