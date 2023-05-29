@@ -14,10 +14,10 @@ const services = [
     link: "https://spotify-clone-vbirla789.vercel.app/",
   },
   {
-    name: "Weather API",
+    name: "Nike-store-redux",
     description:
-      "A Weather API using React can be designed to allow users to access real-time weather data for any location. The is built using React components and a weather API . ",
-    link: "https://spotify-clone-vbirla789.vercel.app/",
+      "The application is built on React, a JavaScript library for building interactive user interfaces.For state management, we have employed Redux.To enhance the visual appeal and responsiveness of our app, we have utilized Tailwind CSS.",
+    link: "https://nike-app-redux.vercel.app/",
   },
   {
     name: "To Do App",
@@ -70,6 +70,7 @@ const Services = () => {
                       <a
                         href={link}
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
+                        target={"_blank"}
                       >
                         <BsArrowUpRight />
                       </a>
