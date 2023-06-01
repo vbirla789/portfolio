@@ -16,7 +16,7 @@ const services = [
   {
     name: "Nike-store-redux",
     description:
-      "The application is built on React, a JavaScript library for building interactive user interfaces.For state management, we have employed Redux.To enhance the visual appeal and responsiveness of our app, we have utilized Tailwind CSS.",
+      "The application is built on React, a JavaScript library for building interactive user interfaces.For state management, Redux.To enhance the visual appeal and responsiveness of our app,Tailwind CSS.",
     link: "https://nike-app-redux.vercel.app/",
   },
   {
