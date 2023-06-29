@@ -8,10 +8,10 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
-    name: "Spotify Clone",
+    name: "Fashion-store",
     description:
-      "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks. Create and save new playlists of recommended tracks based on your existing playlists.",
-    link: "https://spotify-clone-vbirla789.vercel.app/",
+      "The application is built on React, a JavaScript library for building interactive user interfaces. Create and save new products of recommended tracks based on your existing cart management.",
+    link: "https://store-dt7b.vercel.app/",
   },
   {
     name: "Nike-store-redux",
@@ -20,10 +20,10 @@ const services = [
     link: "https://nike-app-redux.vercel.app/",
   },
   {
-    name: "To Do App",
+    name: "Musify App",
     description:
-      " A To-Do app using React can be designed to help users keep track of tasks they need to complete. The app can be built using React components, state management using hooks, and local storage to save tasks.",
-    link: "https://todo-app-xi-ebon.vercel.app/",
+      " A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks. Create and save new playlists of recommended tracks based on your existing playlists.",
+    link: "https://spotify-clone-vbirla789.vercel.app/",
   },
 ];
 
